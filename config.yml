@@ -1,0 +1,14 @@
+# listen binds ticker to specific address and port
+listen: "localhost:80"
+# log_level sets log level for logrus
+log_level: "error"
+# initiator is the email for the first admin user (see password in logs)
+initiator: "${ADMIN_EMAIL}"
+# database is the path to the bolt file
+database: "${DB_URL}"
+# secret used for JSON Web Tokens
+secret: "${SECRET}"
+# twitter configuration
+twitter:
+  consumer_key: "${TWITTER_CONSUMER_KEY}"
+  consumer_secret: "${TWITTER_CONSUMER_SECRET}"
