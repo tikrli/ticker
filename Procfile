@@ -1,1 +1,1 @@
-web: ticker
+web: ./replace-config-vars.sh && ticker
